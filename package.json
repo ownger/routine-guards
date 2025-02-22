@@ -1,0 +1,50 @@
+{
+  "name": "routine-guards",
+  "version": "1.0.0",
+  "description": "Routine Guards is a utility library for TypeScript projects that automates the generation of type guards, ensuring robust type checking and eliminating repetitive manual implementations.",
+  "main": "dist/main.cjs.js",
+  "module": "dist/main.esm.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ownger/routine-guards"
+  },
+  "bugs": {
+    "url": "https://github.com/ownger/routine-guards/issues"
+  },
+  "homepage": "https://github.com/ownger/routine-guards#readme",
+  "scripts": {
+    "build": "rollup -c",
+    "check": "biome check ./src",
+    "format": "biome format ./src",
+    "test": "jest"
+  },
+  "keywords": [
+    "TypeScript",
+    "Type Guards",
+    "Type Checking"
+  ],
+  "author": "Aleksandr Sokolov <ownger@yandex.ru>",
+  "license": "MIT",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "1.9.3",
+    "@jest/globals": "29.7.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/jest": "29.5.13",
+    "jest": "29.7.0",
+    "rollup": "^4.34.6",
+    "rollup-plugin-dts": "^6.1.1",
+    "ts-jest": "29.2.5",
+    "ts-node": "10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "5.6.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
