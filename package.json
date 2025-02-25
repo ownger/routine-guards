@@ -1,6 +1,6 @@
 {
   "name": "routine-guards",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Routine Guards is a utility library for TypeScript projects that automates the generation of type guards, ensuring robust type checking and eliminating repetitive manual implementations.",
   "main": "dist/main.cjs.js",
   "module": "dist/main.esm.js",
